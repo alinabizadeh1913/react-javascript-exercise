@@ -1,0 +1,42 @@
+@font-face {
+  font-family: font-6;
+  src: url("../fonts/PragatiNarrow-Regular.eot") format("eot");
+  src: url("..//fonts/PragatiNarrow-Regular.svg") format("svg");
+  src: url("../fonts/PragatiNarrow-Regular.ttf") format("ttf");
+  src: url("../fonts/PragatiNarrow-Regular.woff") format("woff");
+  src: url("../fonts/PragatiNarrow-Regular.woff2") format("woff2");
+}
+:root {
+  --bg-main:#1f4149;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-color: #2f3a42;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "font-6";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "font-6";
+}
+
+::selection {
+  background-color: #1e7a79;
+  color: white;
+}

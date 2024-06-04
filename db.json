@@ -1,0 +1,86 @@
+{
+    "posts" : [
+        {
+            "id" : 1,
+            "title" : "Person 1",
+            "description" : "my name is ali nabizadeh",
+            "job" : "front-end developer"
+        },
+        {
+            "id" : 2,
+            "title" : "Person 2",
+            "description" : "my name is mohammad nabizadeh",
+            "job" : "student"
+        },
+        {
+            "id" : 3,
+            "title" : "Person 3",
+            "description" : "my name is mohsen nabizadeh",
+            "job" : "teacher"
+        },
+        {
+            "id" : 4,
+            "title" : "Person 4",
+            "description" : "my name is azar shakeri",
+            "job" : "teacher"
+        }
+    ],
+    "posts2" : [
+        {
+            "post-id" : 1,
+            "imgSrc" : "/img/01.jpg",
+            "title" : "Butterfly",
+            "description" : "Butterflies are beautiful insects that undergo a remarkable transformation from caterpillar to butterfly. They come in various vibrant colors and are known for their graceful flight.",
+            "comments" : [
+                {
+                    "text" : "Butterflies are nature's flying artwork."
+                },
+                {
+                    "text" : "The delicate beauty of butterflies is simply enchanting."
+                }
+            ]
+        },
+        {
+            "post-id" : 2,
+            "imgSrc" : "/img/02.jpg",
+            "title" : "Beach",
+            "description" : "The beach is a tranquil oasis with soothing waves and warm sand, offering a peaceful retreat from the chaos of daily life.",
+            "comments" : [
+                {
+                    "text" : "The beach is my happy place where I can feel the soothing breeze, hear the calming sound of the waves, and bask in the warmth of the sun. It's a tranquil escape from the hustle and bustle of daily life."
+                }
+            ]
+        },
+        {
+            "post-id" : 3,
+            "imgSrc" : "/img/03.jpg",
+            "title" : "Flower",
+            "description" : "Flowers are nature's delicate gems, blooming in vibrant hues and spreading joy with their sweet fragrance.",
+            "comments" : [
+                {
+                    "text" : "Flowers are more than just blooms; they are nature's exquisite artwork, painting the world with vibrant hues and delicate beauty."
+                },
+                {
+                    "text" : "The enchanting fragrance of a flower not only pleases the senses but also uplifts the spirit, filling the heart with joy and serenity."
+                },
+                {
+                    "text" : "Each petal of a flower tells a story of resilience and grace, standing as a testament to the wonders of nature's creation."
+                }
+            ]
+        },
+        {
+            "post-id" : 4,
+            "imgSrc" : "/img/04.jpg",
+            "title" : "Eagle",
+            "description" : "The eagle soars majestically in the sky, a symbol of strength, freedom, and perseverance.",
+            "comments" : [
+                {
+                    "text" : "The eagle symbolizes power, freedom, and courage, soaring high above with majestic grace."
+                },
+                {
+                    "text" : "With keen eyes and swift wings, the eagle embodies strength and determination, a true ruler of the sky."
+                }
+            ]
+        }
+    ]
+}
