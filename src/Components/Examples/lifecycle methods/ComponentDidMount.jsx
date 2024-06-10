@@ -1,5 +1,6 @@
 import React from 'react';
 import Template from '../../Template/Template'
+import axios from 'axios';
 
 export default class ComponentDidMount extends React.Component {
 
@@ -9,21 +10,18 @@ export default class ComponentDidMount extends React.Component {
             posts : null,
             loading : true
         }
-    }
 
-    async getPost() {
-        const request = await fetch('http://localhost:5000/posts2');
-        return await request.json();
+        axios.defaults.baseURL = "http://localhost:5000/"
     }
 
     componentDidMount() {
         setTimeout(() => {
-            this.getPost().then(result => {
+            axios.get('posts2').then(response => {
                 this.setState({
-                    posts : result,
+                    posts : response.data,
                     loading : false
                 })
-            })
+            }).catch(e => console.log(e))
         }, 2000)
     }
 
