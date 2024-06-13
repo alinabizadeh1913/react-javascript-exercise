@@ -201,3 +201,33 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #fff;
   color: #000;
 }
+
+#get-derived {
+  background: #1b1b1b;
+  padding: 13px;
+  border-radius: 6px;
+}
+#get-derived .nav .nav-item .nav-link {
+  margin: 0 5px;
+  color: white;
+}
+#get-derived .nav .nav-item .nav-link.active {
+  color: #000;
+}
+#get-derived .post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+}
+#get-derived .post .image {
+  width: 70%;
+  border-radius: 7px;
+  overflow: hidden;
+}
+#get-derived .post .image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}

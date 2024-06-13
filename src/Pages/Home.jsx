@@ -5,10 +5,12 @@ import Axios from "../Components/Examples/axiosShowPost/Axios";
 import Fetch from "../Components/Examples/fetchShowPost/Fetch";
 import ComponentDidMount from '../Components/Examples/lifecycle methods/ComponentDidMount'
 import ComponentDidUpdate from "../Components/Examples/lifecycle methods/ComponentDidUpdate";
+import GetDerivedStateFromProps from "../Components/Examples/lifecycle methods/GetDerivedStateFromProps";
 
 const Home = () => {
     return (
         <React.Fragment>
+            <GetDerivedStateFromProps />
             <ComponentDidUpdate />
             <ComponentDidMount />
             <Fetch />
