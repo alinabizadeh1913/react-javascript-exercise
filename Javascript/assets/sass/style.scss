@@ -46,3 +46,64 @@
   
   
   // rebot
+
+  // Template
+
+  #template{
+    background-color: #0e0d0f;
+    position: relative;
+    .header,.content{
+      background-color: #060707ce;
+    }
+    .header{
+      .title-example{
+        text-transform: capitalize;
+        letter-spacing: 2px;
+      }
+      .circle{
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        margin: 0 4px;
+      }
+      .red{
+        background-color: rgb(246, 61, 33);
+      }
+      .yellow{
+        background-color: rgb(234, 234, 48);
+      }
+      .green{
+        background-color: rgb(21, 139, 69);
+      }
+    }
+    
+  }
+
+  // Template
+
+  // Countdown
+
+  #countdown{
+    .card-wrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+      background-color: #2a2830;
+      border-radius: 10px;
+      .image{
+        width: 80%;
+        border-radius: 5px;
+        overflow: hidden;
+        user-select: none;
+        img{
+          width: 100%;
+          height: 100%;
+          display: block;
+        }
+      }
+    }
+  }
+
+  // Countdown

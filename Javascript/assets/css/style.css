@@ -40,3 +40,51 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #1e7a79;
   color: white;
 }
+
+#template {
+  background-color: #0e0d0f;
+  position: relative;
+}
+#template .header, #template .content {
+  background-color: rgba(6, 7, 7, 0.8078431373);
+}
+#template .header .title-example {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+#template .header .circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 0 4px;
+}
+#template .header .red {
+  background-color: rgb(246, 61, 33);
+}
+#template .header .yellow {
+  background-color: rgb(234, 234, 48);
+}
+#template .header .green {
+  background-color: rgb(21, 139, 69);
+}
+
+#countdown .card-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: #2a2830;
+  border-radius: 10px;
+}
+#countdown .card-wrapper .image {
+  width: 80%;
+  border-radius: 5px;
+  overflow: hidden;
+  user-select: none;
+}
+#countdown .card-wrapper .image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
