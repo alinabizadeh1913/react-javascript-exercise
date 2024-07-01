@@ -6,10 +6,12 @@ import Fetch from "../Components/Examples/fetchShowPost/Fetch";
 import ComponentDidMount from '../Components/Examples/lifecycle methods/ComponentDidMount'
 import ComponentDidUpdate from "../Components/Examples/lifecycle methods/ComponentDidUpdate";
 import GetDerivedStateFromProps from "../Components/Examples/lifecycle methods/GetDerivedStateFromProps";
+import Zustand from "../Components/Examples/Zustand/Zustand";
 
 const Home = () => {
     return (
         <React.Fragment>
+            <Zustand />
             <GetDerivedStateFromProps />
             <ComponentDidUpdate />
             <ComponentDidMount />
